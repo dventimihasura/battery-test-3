@@ -21,5 +21,4 @@ export const options = {
 
 export default function main() {
   let response = http.get('http://127.0.0.1:8080/api/rest/abalance/10')
-  sleep(1)
 }
