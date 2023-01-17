@@ -1,0 +1,25 @@
+table:
+  name: pgbench_branches
+  schema: public
+array_relationships:
+  - name: pgbench_accounts
+    using:
+      foreign_key_constraint_on:
+        column: bid
+        table:
+          name: pgbench_accounts
+          schema: public
+  - name: pgbench_histories
+    using:
+      foreign_key_constraint_on:
+        column: bid
+        table:
+          name: pgbench_history
+          schema: public
+  - name: pgbench_tellers
+    using:
+      foreign_key_constraint_on:
+        column: bid
+        table:
+          name: pgbench_tellers
+          schema: public
