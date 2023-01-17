@@ -1,4 +1,0 @@
-- "!include public_pgbench_accounts.yaml"
-- "!include public_pgbench_branches.yaml"
-- "!include public_pgbench_history.yaml"
-- "!include public_pgbench_tellers.yaml"

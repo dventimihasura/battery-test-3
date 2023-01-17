@@ -1,9 +1,0 @@
-- comment: ""
-  definition:
-    query:
-      collection_name: allowed-queries
-      query_name: account_balance
-  methods:
-    - GET
-  name: account_balance
-  url: abalance/:aid
